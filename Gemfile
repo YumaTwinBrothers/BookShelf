@@ -3,11 +3,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.4'
 
+gem 'kaminari'
+
 gem 'simple_form'
 gem 'sassc', '~> 2.0.0'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'bootstrap'
+
+gem 'bootstrap-sass'
 
 gem 'devise'
 gem 'devise-bootstrap-views'
